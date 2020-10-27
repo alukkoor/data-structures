@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <string>
 #include <cstdlib>
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 enum CallType {
     VOICE, TEXT
 };
-*/
+
 class Medium
 {
 public:
@@ -62,7 +62,7 @@ void send(const Medium* m, string msg)
     cout << m->connect() << " using id " << m->id()
     << ", sending " << m->transmit(msg) << endl;
 }
-/*
+
 int main()
 {
     Medium* media[4];
@@ -81,4 +81,3 @@ int main()
     for (int k = 0; k < 4; k++)
         delete media[k];
 }
-*/

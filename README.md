@@ -13,7 +13,7 @@
 
 * Solve a maze using a stack, a queue, or recursion
 
-# Media Selection
+## Media Selection
 
 * Utilize base and derived classes to represent alternative forms of communication
 
